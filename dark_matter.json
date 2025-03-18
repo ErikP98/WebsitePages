@@ -24,34 +24,7 @@
         "background-color": "#682f23"
       }
     },
-    {
-      "id": "natural_earth",
-      "type": "raster",
-      "source": "ne2_shaded",
-      "maxzoom": 7,
-      "paint": {
-        "raster-opacity": [
-          "interpolate",
-          [
-            "exponential",
-            1.5],
-          [
-            "zoom"
-          ],
-          0, 0.6, 6, 0.1]
-      }
-    },
-    {
-      "id": "park",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "park",
-      "paint": {
-        "fill-color": "#d8e8c8",
-        "fill-opacity": 0.7,
-        "fill-outline-color": "rgba(95, 208, 100, 1)"
-      }
-    },
+    
     {
       "id": "park_outline",
       "type": "line",
