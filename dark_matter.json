@@ -384,7 +384,7 @@
         "tunnel"
       ],
       "paint": {
-        "fill-color": "rgb(158,189,255)"
+        "fill-color": "rgb(255,255,255)"
       }
     },
     {
@@ -401,7 +401,7 @@
         "sand"
       ],
       "paint": {
-        "fill-color": "rgba(247, 239, 195, 1)"
+        "fill-color": "rgba(255,255,255, 1)"
       }
     },
     {
