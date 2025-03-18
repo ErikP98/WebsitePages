@@ -38,7 +38,7 @@
         "tunnel"
       ],
       "paint": {
-        "line-color": "#a0c8f0",
+        "line-color": "#248ad3",
         "line-dasharray": [3, 3],
         "line-gap-width": [
           "interpolate",
@@ -89,7 +89,7 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "#a0c8f0",
+        "line-color": "#248ad3",
         "line-width": [
           "interpolate",
           [
@@ -129,7 +129,7 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "#a0c8f0",
+        "line-color": "#248ad3",
         "line-width": [
           "interpolate",
           [
@@ -155,7 +155,7 @@
         "tunnel"
       ],
       "paint": {
-        "fill-color": "rgb(255,255,255)"
+        "fill-color": "#248ad3"
       }
     },
     {
