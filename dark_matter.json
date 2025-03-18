@@ -598,64 +598,7 @@
           5, 0.4, 6, 0.7, 7, 1.75, 20, 22]
       }
     },
-    {
-      "id": "road_path_pedestrian",
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "minzoom": 14,
-      "filter": [
-        "all",
-        [
-          "match",
-          [
-            "geometry-type"
-          ],
-          [
-            "LineString",
-            "MultiLineString"
-          ],
-          true, false],
-        [
-          "match",
-          [
-            "get",
-            "brunnel"
-          ],
-          [
-            "bridge",
-            "tunnel"
-          ],
-          false, true],
-        [
-          "match",
-          [
-            "get",
-            "class"
-          ],
-          [
-            "path",
-            "pedestrian"
-          ],
-          true, false]
-      ],
-      "layout": {
-        "line-join": "round"
-      },
-      "paint": {
-        "line-color": "hsl(0,0%,100%)",
-        "line-dasharray": [1, 0.7],
-        "line-width": [
-          "interpolate",
-          [
-            "exponential",
-            1.2],
-          [
-            "zoom"
-          ],
-          14, 1, 20, 10]
-      }
-    },
+    
     {
       "id": "road_motorway_link",
       "type": "line",
