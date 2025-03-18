@@ -216,25 +216,7 @@
       }
     },
 
-    {
-      "id": "road_area_pattern",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "filter": [
-        "match",
-        [
-          "geometry-type"
-        ],
-        [
-          "MultiPolygon",
-          "Polygon"
-        ],
-        true, false],
-      "paint": {
-        "fill-pattern": "pedestrian_polygon"
-      }
-    },
+    
     {
       "id": "road_motorway_link_casing",
       "type": "line",
