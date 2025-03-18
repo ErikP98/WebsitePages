@@ -608,64 +608,7 @@
           5, 0.4, 6, 0.7, 7, 1.75, 20, 22]
       }
     },
-    {
-      "id": "road_path_pedestrian",
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "minzoom": 14,
-      "filter": [
-        "all",
-        [
-          "match",
-          [
-            "geometry-type"
-          ],
-          [
-            "LineString",
-            "MultiLineString"
-          ],
-          true, false],
-        [
-          "match",
-          [
-            "get",
-            "brunnel"
-          ],
-          [
-            "bridge",
-            "tunnel"
-          ],
-          false, true],
-        [
-          "match",
-          [
-            "get",
-            "class"
-          ],
-          [
-            "path",
-            "pedestrian"
-          ],
-          true, false]
-      ],
-      "layout": {
-        "line-join": "round"
-      },
-      "paint": {
-        "line-color": "hsl(0,0%,100%)",
-        "line-dasharray": [1, 0.7],
-        "line-width": [
-          "interpolate",
-          [
-            "exponential",
-            1.2],
-          [
-            "zoom"
-          ],
-          14, 1, 20, 10]
-      }
-    },
+    
     {
       "id": "road_motorway_link",
       "type": "line",
@@ -1196,43 +1139,7 @@
           14.5, 0, 15, 3, 20, 8]
       }
     },
-    {
-      "id": "road_one_way_arrow",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "minzoom": 16,
-      "filter": [
-        "==",
-        [
-          "get",
-          "oneway"
-        ],
-        1],
-      "layout": {
-        "icon-image": "arrow",
-        "symbol-placement": "line"
-      }
-    },
-    {
-      "id": "road_one_way_arrow_opposite",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "minzoom": 16,
-      "filter": [
-        "==",
-        [
-          "get",
-          "oneway"
-        ],
-        -1],
-      "layout": {
-        "icon-image": "arrow",
-        "icon-rotate": 180,
-        "symbol-placement": "line"
-      }
-    },
+    
     {
       "id": "bridge_motorway_link_casing",
       "type": "line",
@@ -1599,57 +1506,7 @@
           5, 0.4, 6, 0.7, 7, 1.75, 20, 22]
       }
     },
-    {
-      "id": "bridge_path_pedestrian",
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "filter": [
-        "all",
-        [
-          "match",
-          [
-            "geometry-type"
-          ],
-          [
-            "LineString",
-            "MultiLineString"
-          ],
-          true, false],
-        [
-          "==",
-          [
-            "get",
-            "brunnel"
-          ],
-          "bridge"
-        ],
-        [
-          "match",
-          [
-            "get",
-            "class"
-          ],
-          [
-            "path",
-            "pedestrian"
-          ],
-          true, false]
-      ],
-      "paint": {
-        "line-color": "hsl(0,0%,100%)",
-        "line-dasharray": [1, 0.3],
-        "line-width": [
-          "interpolate",
-          [
-            "exponential",
-            1.2],
-          [
-            "zoom"
-          ],
-          14, 0.5, 20, 10]
-      }
-    },
+    
     {
       "id": "bridge_motorway_link",
       "type": "line",
