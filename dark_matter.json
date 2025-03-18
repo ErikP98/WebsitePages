@@ -4,11 +4,7 @@
   "version": 8,
   "sources": {
     
-   "background-image": {
-      "type": "raster",
-      "url": "https://erikp98.github.io/WebsitePages/Holz.jpeg",  // Hier den Link zu deinem Bild einfügen
-      "tileSize": 256
-    },
+  
     
     "ne2_shaded": {
       "maxzoom": 6,
@@ -27,12 +23,7 @@
   "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
   "layers": [
 
-    {
-      "id": "background-image-layer",  // Neue Ebene für das Bild
-      "type": "raster",
-      "source": "background-image",
-      "paint": {}
-    },
+   
     
     {
       "id": "background",
