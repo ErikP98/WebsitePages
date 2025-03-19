@@ -49,6 +49,22 @@
       }
     },
 
+    {
+      "id": "building",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "building",
+      "minzoom": 12,
+      "filter": ["==", "$type", "Polygon"],
+      "layout": {"visibility": "none"},
+      "paint": {
+        "fill-antialias": true,
+        "fill-color": "rgb(10,10,10)",
+        "fill-outline-color": "rgb(27 ,27 ,29)"
+      }
+    },
+
+
     
     {
       "id": "waterway_tunnel",
