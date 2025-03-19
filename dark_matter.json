@@ -32,6 +32,24 @@
         "background-color": "#682f23"
       }
     },
+
+    {
+      "id": "landcover_wood",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 10,
+      "filter": ["all", ["==", "$type", "Polygon"], ["==", "class", "wood"]],
+      "layout": {"visibility": "none"},
+      "paint": {
+        "fill-color": "rgb(32,32,32)",
+        "fill-opacity": {"base": 0.3, "stops": [[8, 0], [10, 0.8], [13, 0.4]]},
+        "fill-pattern": "wood-pattern",
+        "fill-translate": [0, 0]
+      }
+    },
+
+    
     {
       "id": "waterway_tunnel",
       "type": "line",
