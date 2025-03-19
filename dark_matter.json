@@ -6,6 +6,18 @@
   "version": 8,
   "sources": {
 
+  "my-pattern-source": {
+      "type": "image",
+      "url": "https://erikp98.github.io/WebsitePages/Holz.png",  // URL des Texturbildes
+      "coordinates": [
+        [-180, 90],  // obere linke Ecke
+        [180, 90],   // obere rechte Ecke
+        [180, -90],  // untere rechte Ecke
+        [-180, -90]  // untere linke Ecke
+      ]
+    },
+    
+
     "ne2_shaded": {
       "maxzoom": 6,
       "tileSize": 256,
