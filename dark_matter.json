@@ -967,7 +967,7 @@
             "zoom"
           ],
           5, "hsl(26,87%,62%)",
-          6, "#fc8"
+          6, "#ecd4bc"
         ],
         "line-width": [
           "interpolate",
@@ -1142,7 +1142,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "hsl(36,6%,74%)",
+        "line-color": "#ecd4bc",
         "line-opacity": [
           "interpolate",
           [
