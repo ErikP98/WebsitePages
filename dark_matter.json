@@ -217,7 +217,7 @@
       }
     },
 
-    /*
+  
     {
       "id": "road_motorway_link_casing",
       "type": "line",
@@ -599,7 +599,7 @@
           5, 0.4, 6, 0.7, 7, 1.75, 20, 22]
       }
     },
-    */
+  
     {
       "id": "road_motorway_link",
       "type": "line",
