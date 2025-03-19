@@ -41,7 +41,7 @@
       "id": "background",
       "type": "background",
       "paint": {
-      "background-pattern": "my-pattern-source"
+      "background-pattern": "my-pattern"
       }
     },
 
