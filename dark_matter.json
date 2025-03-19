@@ -10,10 +10,10 @@
       "type": "image",
       "url": "https://erikp98.github.io/WebsitePages/Holz.png",  
       "coordinates": [
-        [-100, 100],  
-        [100, 100],   
-        [100, -100],  
-        [-100, -100]  
+        [-90, 90],  
+        [90, 90],   
+        [90, -90],  
+        [-90, -90]  
       ]
     },
     
@@ -41,7 +41,7 @@
       "id": "background",
       "type": "background",
       "paint": {
-      "background-pattern": "my-pattern"
+      "fill-color": "#95786a"
       }
     },
 
