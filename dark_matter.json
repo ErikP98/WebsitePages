@@ -6,12 +6,6 @@
   "version": 8,
   "sources": {
 
-    "background-image": {
-      "type": "raster",
-      "url": "https://erikp98.github.io/WebsitePages/Holz.png",  // Link zu deinem PNG-Bild
-      "tileSize": 256
-    },
-    
     "ne2_shaded": {
       "maxzoom": 6,
       "tileSize": 256,
