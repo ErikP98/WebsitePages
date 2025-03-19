@@ -30,6 +30,7 @@
       "type": "raster",
       "source": "background-image",
       "paint": {}
+      }
     },
     {
       "id": "background",
