@@ -1,5 +1,6 @@
 
 
+
 {
   "version": 8,
   "sources": {
@@ -756,7 +757,62 @@
           12.5, 0, 13, 1.5, 14, 2.5, 20, 11.5]
       }
     },
-    
+    {
+      "id": "road_minor",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        [
+          "match",
+          [
+            "geometry-type"
+          ],
+          [
+            "LineString",
+            "MultiLineString"
+          ],
+          true, false],
+        [
+          "match",
+          [
+            "get",
+            "brunnel"
+          ],
+          [
+            "bridge",
+            "tunnel"
+          ],
+          false, true],
+        [
+          "match",
+          [
+            "get",
+            "class"
+          ],
+          [
+            "minor"
+          ],
+          true, false]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#fff",
+        "line-width": [
+          "interpolate",
+          [
+            "exponential",
+            1.2],
+          [
+            "zoom"
+          ],
+          13.5, 0, 14, 2.5, 20, 18]
+      }
+    },
     {
       "id": "road_secondary_tertiary",
       "type": "line",
