@@ -10,10 +10,10 @@
       "type": "image",
       "url": "https://erikp98.github.io/WebsitePages/Holz.png",  
       "coordinates": [
-        [-180, 90],  
-        [180, 90],   
-        [180, -90],  
-        [-180, -90]  
+        [-10, 10],  
+        [10, 10],   
+        [10, -10],  
+        [-10, -10]  
       ]
     },
     
