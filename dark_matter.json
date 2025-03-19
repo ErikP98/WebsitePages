@@ -12,7 +12,7 @@
       "maxzoom": 6,
       "tileSize": 256,
       "tiles": [
-        "https://erikp98.github.io/WebsitePages/Holz.jpeg"
+        "https://tiles.openfreemap.org/natural_earth/ne2sr/{z}/{x}/{y}.png"
       ],
       "type": "raster"
     },
