@@ -168,7 +168,7 @@
       }
     },
   
-    //{
+    {
       "id": "tunnel_motorway_link_casing",
       "type": "line",
       "source": "openmaptiles",
@@ -215,9 +215,9 @@
           ],
           12, 1, 13, 3, 14, 4, 20, 15]
       }
-    },//
+    },
 
-    
+    /*
     {
       "id": "road_motorway_link_casing",
       "type": "line",
@@ -599,7 +599,7 @@
           5, 0.4, 6, 0.7, 7, 1.75, 20, 22]
       }
     },
-    
+    */
     {
       "id": "road_motorway_link",
       "type": "line",
