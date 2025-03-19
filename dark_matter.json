@@ -1677,7 +1677,7 @@
       "paint": {
         "text-color": "transparent",
         "text-halo-blur": 1,
-        "text-halo-color": "#fff",
+        "text-halo-color": "transparent",
         "text-halo-width": 1
       }
     },
@@ -1751,9 +1751,9 @@
           2, 9, 5, 17]
       },
       "paint": {
-        "text-color": "#000",
+        "text-color": "transparent",
         "text-halo-blur": 1,
-        "text-halo-color": "#fff",
+        "text-halo-color": "transparent",
         "text-halo-width": 1
       }
     },
@@ -1829,7 +1829,7 @@
       "paint": {
         "text-color": "transparent",
         "text-halo-blur": 1,
-        "text-halo-color": "#fff",
+        "text-halo-color": "transparent",
         "text-halo-width": 1
       }
     }
