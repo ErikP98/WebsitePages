@@ -1675,7 +1675,7 @@
           3, 9, 7, 17]
       },
       "paint": {
-        "text-color": "#000",
+        "text-color": "transparent",
         "text-halo-blur": 1,
         "text-halo-color": "#fff",
         "text-halo-width": 1
@@ -1827,7 +1827,7 @@
           1, 9, 4, 17]
       },
       "paint": {
-        "text-color": "#000",
+        "text-color": "transparent",
         "text-halo-blur": 1,
         "text-halo-color": "#fff",
         "text-halo-width": 1
