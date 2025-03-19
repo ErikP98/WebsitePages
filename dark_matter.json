@@ -8,12 +8,12 @@
 
   "my-pattern-source": {
       "type": "image",
-      "url": "https://erikp98.github.io/WebsitePages/Holz.png",  // URL des Texturbildes
+      "url": "https://erikp98.github.io/WebsitePages/Holz.png",  
       "coordinates": [
-        [-180, 90],  // obere linke Ecke
-        [180, 90],   // obere rechte Ecke
-        [180, -90],  // untere rechte Ecke
-        [-180, -90]  // untere linke Ecke
+        [-180, 90],  
+        [180, 90],   
+        [180, -90],  
+        [-180, -90]  
       ]
     },
     
