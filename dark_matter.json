@@ -1,19 +1,7 @@
 {
   "version": 8,
   "sources": {
-
-  "my-pattern-source": {
-      "type": "image",
-      "url": "https://erikp98.github.io/WebsitePages/Holz.png",  
-      "coordinates": [
-        [-90, 90],  
-        [90, 90],   
-        [90, -90],  
-        [-90, -90]  
-      ]
-    },
     
-
     "ne2_shaded": {
       "maxzoom": 6,
       "tileSize": 256,
@@ -38,44 +26,6 @@
       "type": "background",
       "paint": {
       "background-color": "transparent"
-      }
-    },
-
-    {
-      "id": "waterway_tunnel",
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "waterway",
-      "filter": [
-        "==",
-        [
-          "get",
-          "brunnel"
-        ],
-        "tunnel"
-      ],
-      "paint": {
-        "line-color": "#469fb5",
-        "line-dasharray": [3, 3],
-        "line-gap-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          12, 0, 20, 6],
-        "line-opacity": 1,
-        "line-width": [
-          "interpolate",
-          [
-            "exponential",
-            1.4],
-          [
-            "zoom"
-          ],
-          8, 1, 20, 2]
       }
     },
     {
