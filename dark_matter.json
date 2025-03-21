@@ -163,7 +163,6 @@
       },
       "paint": {
         "line-color": "#ecd4bc",
-        "line-dasharray": [0.5, 0.25],
         "line-width": [
           "interpolate",
           [
