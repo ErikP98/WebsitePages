@@ -230,53 +230,7 @@
           12, 1, 13, 3, 14, 4, 20, 15]
       }
     },
-    {
-      "id": "road_service_track_casing",
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "filter": [
-        "all",
-        [
-          "match",
-          [
-            "get",
-            "brunnel"
-          ],
-          [
-            "bridge",
-            "tunnel"
-          ],
-          false, true],
-        [
-          "match",
-          [
-            "get",
-            "class"
-          ],
-          [
-            "service",
-            "track"
-          ],
-          true, false]
-      ],
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round"
-      },
-      "paint": {
-        "line-color": "#ecd4bc",
-        "line-width": [
-          "interpolate",
-          [
-            "exponential",
-            1.2],
-          [
-            "zoom"
-          ],
-          15, 1, 16, 4, 20, 11]
-      }
-    },
+  
     {
       "id": "road_link_casing",
       "type": "line",
