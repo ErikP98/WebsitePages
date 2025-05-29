@@ -1,6 +1,7 @@
 
 
 
+
 {
   "version": 8,
   "sources": {
@@ -183,7 +184,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
-      "minzoom": 13,
+      "minzoom": 12,
       "filter": [
         "all",
         [
@@ -519,7 +520,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
-      "minzoom": 13,
+      "minzoom": 12,
       "filter": [
         "all",
         [
