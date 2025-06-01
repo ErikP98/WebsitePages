@@ -826,7 +826,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
-      "minzoom": 3,
+      "minzoom": 5,
       "filter": [
         "all",
         [
@@ -880,7 +880,7 @@
           [
             "zoom"
           ],
-          3, 2, 7, 4, 20, 18]
+          5, 0, 7, 1, 20, 18]
       }
     },
     
