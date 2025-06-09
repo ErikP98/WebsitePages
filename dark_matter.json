@@ -1506,23 +1506,7 @@
           5, 0, 7, 1, 20, 18]
       }
     },
-        {
-      "id": "boundary_country_z5-",
-      "type": "line",
-      "metadata": {"mapbox:group": "a14c9607bc7954ba1df7205bf660433f"},
-      "source": "openmaptiles",
-      "source-layer": "boundary",
-      "minzoom": 0,
-      "filter": ["==", "admin_level", 2],
-      "layout": {"line-cap": "round", "line-join": "round"},
-      "paint": {
-        "line-blur": {"base": 1, "stops": [[0, 0.4], [22, 4]]},
-        "line-color": "hsl(0, 0%, 23%)",
-        "line-opacity": 1,
-        "line-width": {"base": 1.1, "stops": [[3, 1], [22, 20]]}
-      }
-    },
-
+        
     {
       "id": "label_country_3",
       "type": "symbol",
