@@ -60,7 +60,7 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgba(0, 0, 139, 0.99)",
+        "line-color": "#469fb5",
         "line-width": [
           "interpolate",
           [
@@ -100,7 +100,7 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgba(0, 0, 139, 0.99)",
+        "line-color": "#469fb5",
         "line-width": [
           "interpolate",
           [
@@ -126,7 +126,8 @@
         "tunnel"
       ],
       "paint": {
-        "fill-color": "rgba(0, 0, 139, 0.99)"
+        "fill-color": "#469fb5"
+        "fill-opacity": 0.95
       }
     },
   
