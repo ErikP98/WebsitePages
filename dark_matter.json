@@ -32,7 +32,7 @@
       "background-color": "#469fb5"
       }
     },
-        {Add commentMore actions
+        {
       "id": "waterway_river",
       "type": "line",
       "source": "openmaptiles",
@@ -60,7 +60,7 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "#4cc3de"
+        "line-color": "#4cc3de",
         "line-opacity": 0.70,
         "line-width": [
           "interpolate",
@@ -70,7 +70,7 @@
           [
             "zoom"
           ],
-          11, 0.5, 20, 6]Add commentMore actions
+          11, 0.5, 20, 6]
       }
     },
     
