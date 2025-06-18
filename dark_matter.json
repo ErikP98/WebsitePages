@@ -60,7 +60,7 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "#4cc3de",
+        "line-color": "#4cc3de"
         "line-opacity": 0.70,
         "line-width": [
           "interpolate",
