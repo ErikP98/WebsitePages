@@ -32,7 +32,47 @@
       "background-color": "#469fb5"
       }
     },
-
+    {
+      "id": "waterway_other",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "waterway",
+      "filter": [
+        "all",
+        [
+          "!=",
+          [
+            "get",
+            "class"
+          ],
+          "river"
+        ],
+        [
+          "!=",
+          [
+            "get",
+            "brunnel"
+          ],
+          "tunnel"
+        ]
+      ],
+      "layout": {
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "#1D92B3",
+        "line-opacity": 0.80
+        "line-width": [
+          "interpolate",
+          [
+            "exponential",
+            1.3],
+          [
+            "zoom"
+          ],
+          13, 0.5, 20, 6]
+      }
+    },
     {
       "id": "water",
       "type": "fill",
@@ -47,8 +87,8 @@
         "tunnel"
       ],
       "paint": {
-        "fill-color": "#469fb5",
-        "fill-opacity": 0.85
+        "fill-color": "#1D92B3",
+        "fill-opacity": 0.80
       }
     },
   
