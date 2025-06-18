@@ -33,36 +33,46 @@
       }
     },
         {
-{
-  "id": "waterway_river",
-  "type": "line",
-  "source": "openmaptiles",
-  "source-layer": "waterway",
-  "filter": [
-    "all",
-    ["==", ["get", "class"], "river"],
-    ["!=", ["get", "brunnel"], "tunnel"]
-  ],
-  "layout": {
-    "line-cap": "round"
-  },
-  "paint": {
-    "line-color": "#4cc3de",
-    "line-opacity": [
-      "case",
-      ["boolean", ["feature-state", "overWater"], false],
-      0,         // Wenn über "water": vollständig transparent
-      0.7        // Wenn nicht über "water": normale Sichtbarkeit
-    ],
-    "line-width": [
-      "interpolate",
-      ["exponential", 1.2],
-      ["zoom"],
-      11, 0.5,
-      20, 6
-    ]
-  }
-},
+      "id": "waterway_river",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "waterway",
+      "filter": [
+        "all",
+        [
+          "==",
+          [
+            "get",
+            "class"
+          ],
+          "river"
+        ],
+        [
+          "!=",
+          [
+            "get",
+            "brunnel"
+          ],
+          "tunnel"
+        ]
+      ],
+      "layout": {
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "#4cc3de",
+        "line-opacity": 0.70,
+        "line-width": [
+          "interpolate",
+          [
+            "exponential",
+            1.2],
+          [
+            "zoom"
+          ],
+          11, 0.5, 20, 6]
+      }
+    },
     
     {
       "id": "waterway_other",
