@@ -60,8 +60,8 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "#1D92B3",
-        "line-opacity": 0.80,
+        "line-color": "#4cc3de",
+        "line-opacity": 0.70,
         "line-width": [
           "interpolate",
           [
@@ -87,8 +87,8 @@
         "tunnel"
       ],
       "paint": {
-        "fill-color": "#1D92B3",
-        "fill-opacity": 0.80
+        "fill-color": "#4cc3de",
+        "fill-opacity": 0.70
       }
     },
   
