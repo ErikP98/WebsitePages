@@ -115,24 +115,6 @@
           13, 0.5, 20, 6]
       }
     },
-        {
-      "id": "water",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "water",
-      "filter": [
-        "!=",
-        [
-          "get",
-          "brunnel"
-        ],
-        "tunnel"
-      ],
-      "paint": {
-        "fill-color": "#4cc3de",
-        "fill-opacity": 0.70
-      }
-    },
 {
   "id": "water",
   "type": "fill",
