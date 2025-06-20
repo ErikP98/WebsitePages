@@ -61,7 +61,7 @@
       },
       "paint": {
         "line-color": "#4cc3de",
-        "line-opacity": 0.40,
+        "line-opacity": 1,
         "line-width": [
           "interpolate",
           [
@@ -103,7 +103,7 @@
       },
       "paint": {
         "line-color": "#4cc3de",
-        "line-opacity": 0.70,
+        "line-opacity": 1,
         "line-width": [
           "interpolate",
           [
