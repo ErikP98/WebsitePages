@@ -345,6 +345,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 7,
       "filter": [
         "all",
         [
@@ -384,7 +385,7 @@
           [
             "zoom"
           ],
-          6.5, 2, 8, 2, 20, 13]
+          7, 2, 8, 2, 20, 13]
       }
     },
     {
@@ -392,6 +393,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 7,
       "filter": [
         "all",
         [
@@ -430,7 +432,7 @@
           [
             "zoom"
           ],
-          5, 1, 7, 2, 20, 18]
+          7, 2, 8, 2, 20, 18]
       }
     },
     {
@@ -438,7 +440,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
-      "minzoom": 5,
+      "minzoom": 7,
       "filter": [
         "all",
         [
@@ -482,7 +484,7 @@
           [
             "zoom"
           ],
-          5, 2, 7, 2, 20, 18]
+          7, 2, 8, 2, 20, 18]
       }
     },
     
@@ -663,6 +665,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 7,
       "filter": [
         "all",
         [
@@ -698,7 +701,7 @@
           [
             "zoom"
           ],
-          6.5, 2, 7, 2, 20, 10]
+          7, 2, 8, 2, 20, 10]
       }
     },
     {
@@ -706,6 +709,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 7,
       "filter": [
         "all",
         [
@@ -741,7 +745,7 @@
           [
             "zoom"
           ],
-          5, 2, 7, 2, 20, 18]
+          7, 2, 8, 2, 20, 18]
       }
     },
     {
@@ -749,6 +753,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 7,
       "filter": [
         "all",
         [
@@ -788,7 +793,7 @@
           [
             "zoom"
           ],
-          5, 2, 7, 2, 20, 18]
+          7, 2, 8, 2, 20, 18]
       }
     },
         
