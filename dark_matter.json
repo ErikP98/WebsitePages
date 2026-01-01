@@ -78,6 +78,30 @@
     },
 
     {
+      "id": "water_shadow_base",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "filter": ["!=", ["get", "brunnel"], "tunnel"],
+      "paint": {
+        "fill-color": "#1a5a6e",
+        "fill-opacity": 1.0,
+        "fill-translate": [3, 3]
+      }
+    },
+    {
+      "id": "water_shadow_pattern",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "filter": ["!=", ["get", "brunnel"], "tunnel"],
+      "paint": {
+        "fill-pattern": "water-pattern",
+        "fill-opacity": 0.5,
+        "fill-translate": [3, 3]
+      }
+    },
+    {
       "id": "water",
       "type": "fill",
       "source": "openmaptiles",
