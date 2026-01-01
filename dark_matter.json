@@ -86,7 +86,7 @@
       "paint": {
         "fill-color": "#082530",
         "fill-opacity": 1.0,
-        "fill-translate": [1.5, 1.5]
+        "fill-translate": [-1.5, -1.5]
       }
     },
     {
@@ -98,7 +98,7 @@
       "paint": {
         "fill-pattern": "water-pattern",
         "fill-opacity": 0.25,
-        "fill-translate": [1.5, 1.5]
+        "fill-translate": [-1.5, -1.5]
       }
     },
     {
