@@ -84,9 +84,9 @@
       "source-layer": "water",
       "filter": ["!=", ["get", "brunnel"], "tunnel"],
       "paint": {
-        "fill-color": "#1a5a6e",
+        "fill-color": "#082530",
         "fill-opacity": 1.0,
-        "fill-translate": [3, 3]
+        "fill-translate": [1.5, 1.5]
       }
     },
     {
@@ -97,8 +97,8 @@
       "filter": ["!=", ["get", "brunnel"], "tunnel"],
       "paint": {
         "fill-pattern": "water-pattern",
-        "fill-opacity": 0.5,
-        "fill-translate": [3, 3]
+        "fill-opacity": 0.25,
+        "fill-translate": [1.5, 1.5]
       }
     },
     {
