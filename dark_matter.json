@@ -78,6 +78,17 @@
     },
 
     {
+      "id": "water",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "filter": ["!=", ["get", "brunnel"], "tunnel"],
+      "paint": {
+        "fill-pattern": "water-pattern",
+        "fill-opacity": 1.0
+      }
+    },
+    {
       "id": "water_shadow_base",
       "type": "fill",
       "source": "openmaptiles",
@@ -99,17 +110,6 @@
         "fill-pattern": "water-pattern",
         "fill-opacity": 0.25,
         "fill-translate": [-1.5, -1.5]
-      }
-    },
-    {
-      "id": "water",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "water",
-      "filter": ["!=", ["get", "brunnel"], "tunnel"],
-      "paint": {
-        "fill-pattern": "water-pattern",
-        "fill-opacity": 1.0
       }
     },
 
